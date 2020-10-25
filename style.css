@@ -97,3 +97,15 @@ body {
 span {
   font-weight: bold;
 }
+
+.title-end {
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  margin-bottom: 48px;
+}
+
+a {
+  color: #2066ed;
+}
