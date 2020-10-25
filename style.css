@@ -23,8 +23,10 @@ body {
 }
 
 .subtitle-principal {
-  font-size: 14px;
+  font-size: 18px;
   font-style: italic;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 300;
 }
 
 #title,
@@ -48,12 +50,21 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  width: 90%;
+  width: 85%;
   height: 700px;
   background: #e4e4e4;
+  padding: 16px;
 }
 
 #image {
   max-width: 100%;
   height: auto;
+}
+
+#img-caption {
+  margin-top: 16px;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }
