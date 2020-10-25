@@ -30,8 +30,16 @@ body {
 }
 
 #title,
-.subtitle-principal {
+.subtitle-principal,
+#tribute-info {
   color: #fff;
+}
+
+#tribute-info {
+  margin-top: 56px;
+  font-size: 32px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: bold;
 }
 
 .content-title-principal {
