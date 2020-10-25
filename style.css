@@ -4,13 +4,16 @@
 }
 
 body {
+  background: #2f3437;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #2f3437;
-  margin: 0;
-  padding: 0;
 }
 
 #title {
@@ -38,4 +41,19 @@ body {
   height: 150px;
   width: 100vw;
   background: #6a6a6a;
+}
+
+#img-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  height: 700px;
+  background: #e4e4e4;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
 }
